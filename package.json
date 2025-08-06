@@ -1,0 +1,25 @@
+{
+  "name": "optiloves-faucet",
+  "version": "1.0.0",
+  "description": "Solana Devnet faucet backend for Optiloves Invest",
+  "main": "faucet.js",
+  "scripts": {
+    "start": "node faucet.js"
+  },
+  "keywords": [
+    "solana",
+    "faucet",
+    "optiloves",
+    "devnet"
+  ],
+  "author": "DonSEbat Malungu",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/spl-token": "^0.3.9",
+    "@solana/web3.js": "^1.94.0",
+    "bs58": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
