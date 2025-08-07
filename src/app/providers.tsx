@@ -8,7 +8,7 @@ import { clusterApiUrl } from '@solana/web3.js';
 import { useMemo } from 'react';
 
 export default function Providers({ children }: { children: React.ReactNode }) {
-  const endpoint = useMemo(() => clusterApiUrl("devnet"), []);
+  const endpoint = useMemo(() => clusterApiUrl('devnet'), []);
   const wallets = useMemo(() => [new PhantomWalletAdapter()], []);
 
   return (
@@ -17,4 +17,3 @@ export default function Providers({ children }: { children: React.ReactNode }) {
     </WalletProvider>
   );
 }
-
