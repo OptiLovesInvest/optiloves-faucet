@@ -1,4 +1,3 @@
-// src/app/Providers.tsx
 'use client';
 
 import { WalletProvider } from '@solana/wallet-adapter-react';
