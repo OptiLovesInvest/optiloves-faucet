@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "Solana Devnet faucet backend for Optiloves Invest",
   "main": "faucet.js",
-  "scripts": {
-    "start": "node faucet.js"
-  },
+ "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+}
+
   "keywords": [
     "solana",
     "faucet",
@@ -21,9 +24,11 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "firebase": "^12.0.0",
+    "firebase": "^10.0.0",
     "next": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
+
+
 }
