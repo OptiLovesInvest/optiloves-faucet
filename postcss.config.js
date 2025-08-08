@@ -1,8 +1,9 @@
 module.exports = {
   plugins: {
-    '@tailwindcss/nesting': {}, // ✅ Correct usage
-    tailwindcss: {},
-    autoprefixer: {},
+    'postcss-import': {},
+    '@tailwindcss/postcss': {},  // ✅ Correct for Tailwind 3.4+
+    'postcss-nesting': {},
+    'autoprefixer': {},
   },
 };
 
